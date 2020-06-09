@@ -9,14 +9,14 @@ spring:
     active: default
   datasource:
     druid:
-      url: jdbc:mysql://www.liugenkun.com:3306/myblog?useUnicode=true&characterEncoding=UTF-8
-      username: root
-      password: 1834074124Liu@
+      url: 
+      username: 
+      password: 
       driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: www.liugenkun.com
-    password: liugenkun
-    port: 6379
+    host: 
+    password: 
+    port: 
   cache:
     cache-names: redisCache
     type: redis

@@ -9,14 +9,14 @@ spring:
     active: default
   datasource:
     druid:
-      url: jdbc:mysql://myblog.com:3306/myblog?useUnicode=true&characterEncoding=UTF-8
+      url: jdbc:mysql://www.liugenkun.com:3306/myblog?useUnicode=true&characterEncoding=UTF-8
       username: root
-      password: helloroot
+      password: 1834074124Liu@
       driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
-    host: myblog.com
-    password: root
-    port: 6340
+    host: www.liugenkun.com
+    password: liugenkun
+    port: 6379
   cache:
     cache-names: redisCache
     type: redis
@@ -39,6 +39,6 @@ mybatis:
   mapper-locations: ["/com/myblog/dao/*.xml"]
 logging:
   level:
-    root: error
+    root: info
   file:
-    path: /data/logs
+    path: logs
